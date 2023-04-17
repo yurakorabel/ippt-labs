@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'CentOS' }
+    agent { label 'RedHatSlave' }
     stages {
         stage('Docker version') {
             steps {
